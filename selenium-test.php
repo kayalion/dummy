@@ -12,7 +12,6 @@ class WebTest extends PHPUnit_Extensions_Selenium2TestCase
     {
         $this->url('http://www.google.com/');
         $this->assertEquals('Google', $this->title());
-	$this->assertTrue(false);
     }
 
 }
